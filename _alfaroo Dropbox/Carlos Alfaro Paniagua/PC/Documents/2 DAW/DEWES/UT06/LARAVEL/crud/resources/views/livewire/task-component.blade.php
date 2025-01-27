@@ -95,7 +95,7 @@
                            bg-[#F3F6FF]
                            rounded-br-md
                            ">
-                    <button
+                    <button wire:click = 'modificarTarea({{ $task }})'
                       class="bg-yellow-500 rounded-md text-white p-2 w-[100px]">Editar</button>
                     <button
                       class="bg-red-500 rounded-md text-white p-2 w-[100px]">Borrar</button>
@@ -147,4 +147,3 @@
     </div>
   </div>
 @endif
-
